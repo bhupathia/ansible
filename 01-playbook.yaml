@@ -3,6 +3,6 @@
   #become: yes
   tasks:
   - name: pinging the server
-  anisible.builtin.ping: 
+    anisible.builtin.ping: 
       
   
