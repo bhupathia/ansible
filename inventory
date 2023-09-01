@@ -1,7 +1,7 @@
 [mongodb]
 roboshop-us-dev-db-mongodb-1.bhupathinaidu.fun
 
-[mysql]
+#[mysql]
 roboshop-us-dev-db-mysql-1.bhupathinaidu.fun
 roboshop-us-dev-db-mysql-2.bhupathinaidu.fun
 
@@ -23,4 +23,4 @@ mysql
 
 [app:children]
 cart
-user
+user#
