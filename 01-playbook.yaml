@@ -1,12 +1,8 @@
-- name: install nginx and run nginx
-  hosts: localhost
-  become: yes
+- name: pinging the node
+  hosts: mongodb
+  #become: yes
   tasks:
-  - name: install nginx
-    anisible.builtin.yum:
-      name: nginx
-      state: installed
-  - name: start nginx
-    ansible.builtin.service:
-      name: nginx
-      state: started    
+  - name: pinging the server
+  anisible.builtin.ping: 
+      
+  
